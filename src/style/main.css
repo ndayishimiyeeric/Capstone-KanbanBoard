@@ -35,3 +35,21 @@ header {
 .nav-item a {
   color: rgb(11, 9, 9);
 }
+
+.nav-item.active {
+  text-decoration: underline;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: 2px solid rgb(11, 9, 9);
+  padding: 2% 10%;
+}
+
+.f-para {
+  font-size: 20px;
+  font-weight: 500;
+}

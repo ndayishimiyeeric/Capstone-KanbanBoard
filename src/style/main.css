@@ -13,17 +13,20 @@ a {
   text-decoration: none;
 }
 
+body {
+  background: #fcb900c7;
+}
+
 header {
   margin: auto;
   padding: 2% 15%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
-.logo {
-  color: rgb(11, 9, 9);
-  font-size: 30px;
+#poke-logo {
+  max-width: 15%;
 }
 
 .nav-items {
@@ -45,11 +48,12 @@ footer{
   bottom: 0;
   left: 0;
   right: 0;
-  border-top: 2px solid rgb(11, 9, 9);
-  padding: 2% 10%;
+  padding: 1% 10%;
+  background: #2468b1;
 }
 
 .f-para {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 200;
+  color: #fccf00;
 }

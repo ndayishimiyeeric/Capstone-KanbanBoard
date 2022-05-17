@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  margin: auto;
+  padding: 2% 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: rgb(11, 9, 9);
+  font-size: 30px;
+}
+
+.nav-items {
+  display: flex;
+  gap: 10px;
+  width: auto;
+}
+
+.nav-item a {
+  color: rgb(11, 9, 9);
+}

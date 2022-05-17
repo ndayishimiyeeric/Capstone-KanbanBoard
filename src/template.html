@@ -8,18 +8,24 @@
       src="https://kit.fontawesome.com/ce85233928.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
     <header>
-      <div class="logo">
-        <i class="fa-solid fa-mountain-city"></i>
-      </div>
+      <a href="#">
+        <i class="fa-solid fa-mountain-city logo"></i>
+      </a>
       <nav>
-        <ul>
-          <li><a href="#">Feature Cities</a></li>
-          <li><a href="#">Mayors</a></li>
-          <li><a href="#">Population</a></li>
+        <ul class="nav-items">
+          <li class="nav-item"><a href="#">Feature Cities</a></li>
+          <li class="nav-item"><a href="#">Mayors</a></li>
+          <li class="nav-item"><a href="#">Population</a></li>
         </ul>
       </nav>
     </header>

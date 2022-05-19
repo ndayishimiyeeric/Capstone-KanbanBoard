@@ -60,6 +60,12 @@
   background-color: red;
   border: none;
   border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.close-pop:hover {
+  cursor: pointer;
+  transform: scale(0.9);
 }
 
 .pop-title {

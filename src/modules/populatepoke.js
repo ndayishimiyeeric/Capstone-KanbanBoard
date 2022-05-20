@@ -5,7 +5,7 @@ export default class Populate {
     pokemonsDiv.innerHTML += `
     <div id="${pokemon.name}" class="poke-card">
       <div class="poke-img">
-        <img src="${pokemon.sprites.other.dream_world.front_default}">
+        <img src="${pokemon.sprites.other.dream_world.front_default}" alt="${pokemon.id}">
       </div>
       <div id="${pokemon.base_experience}" class="poke-content">
         <h4 class="poke-name">${pokemon.name}</h4>

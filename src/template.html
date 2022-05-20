@@ -28,7 +28,7 @@
       </a>
       <nav>
         <ul class="nav-items">
-          <li class="nav-item active"><a href="#">Pokes</a></li>
+          <li class="nav-item poke-count active"><a href="#">Pokes</a></li>
           <li class="nav-item"><a href="#">Popular</a></li>
           <li class="nav-item"><a href="#">Contact</a></li>
         </ul>
@@ -37,7 +37,7 @@
 
     <div class="pokemons"></div>
 
-    <div class="pop-up" id="pop-up">
+    <div class="pop-up">
       <div class="pop-top"></div>
       <button class="close-pop">&times;</button>
       <h3 class="pop-title"></h3>
@@ -47,6 +47,7 @@
       </div>
       <div class="pop-comments">
         <h4 class="display-comments">Comments</h4>
+        <ul class="comments-list"></ul>
       </div>
       <form class="add-comment">
         <h3 class="form-title">Add comment</h3>
@@ -64,7 +65,7 @@
           placeholder="Your insights"
           required
         ></textarea>
-        <button class="add-button">comment</button>
+        <button type="submit" class="add-button">comment</button>
       </form>
     </div>
     <div id="shadow"></div>

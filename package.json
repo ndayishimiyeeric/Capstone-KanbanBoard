@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack",
     "dev": "webpack serve",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/ndayishimiyeeric/Capstone-KanbanBoard/issues"
   },
-  "homepage": "https://github.com/ndayishimiyeeric/Capstone-KanbanBoard#readme",
+  "homepage": "https://ndayishimiyeeric.github.io/Capstone-KanbanBoard",
   "devDependencies": {
     "@babel/core": "^7.17.12",
     "@babel/plugin-transform-modules-commonjs": "^7.17.12",
@@ -43,5 +44,8 @@
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

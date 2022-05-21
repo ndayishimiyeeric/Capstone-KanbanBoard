@@ -36,8 +36,6 @@ npm run build
 
 **live demo** [here.](https://ndayishimiyeeric.github.io/Capstone-KanbanBoard/)
 
-**Video Demo** [here.](https://drive.google.com/file/d/1b7cKCKR4HwCb3QKop8Mrcj2x_DoPocik/view?usp=sharing)
-
 ## Authors
 
 👤 **Odaltoneric**

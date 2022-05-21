@@ -47,7 +47,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'City Web App',
+      title: 'Poke Web App',
       filename: 'index.html',
       template: 'src/template.html',
     }),

@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #fcb900c7;
+}
+
+header {
+  margin: auto;
+  padding: 2% 15%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#poke-logo {
+  max-width: 20%;
+}
+
+.nav-items {
+  display: flex;
+  gap: 10px;
+  width: auto;
+}
+
+.nav-item a {
+  color: rgb(11, 9, 9);
+}
+
+.nav-item.active {
+  text-decoration: underline;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1% 10%;
+  background: #2468b1;
+}
+
+.f-para {
+  font-size: 20px;
+  font-weight: 200;
+  color: #fccf00;
+}
+
+@media only screen and (max-width: 768px) {
+  #poke-logo {
+    width: 50%;
+    max-width: 50%;
+  }
+}
+
+@media only screen and (max-width: 496px) {
+  #poke-logo {
+    width: 80%;
+    max-width: 100%;
+  }
+
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 2% 10%;
+  }
+}

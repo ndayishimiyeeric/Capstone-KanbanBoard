@@ -40,7 +40,7 @@ header {
 }
 
 .nav-item.active {
-  text-decoration: underline;
+  border-bottom: 2px solid rgba(96, 165, 250, 1.9);
 }
 
 footer {
@@ -56,6 +56,17 @@ footer {
   font-size: 20px;
   font-weight: 200;
   color: #fccf00;
+}
+
+@media only screen and (max-width: 960px) {
+  .nav-item a {
+    font-size: 20px;
+  }
+
+  #poke-logo {
+    width: 52%;
+    max-width: 55%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
